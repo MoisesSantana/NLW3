@@ -3,12 +3,13 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
+  background: rgb(235, 242, 245);
   color: white;
   height: 100vh;
 }
