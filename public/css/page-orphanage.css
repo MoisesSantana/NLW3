@@ -3,38 +3,6 @@
   min-height: 100vh;
 }
 
-aside.sidebar {
-  align-items: center;
-  background: rgb(21, 195, 214);
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-between;
-  padding: 3.2rem 2.4rem;
-  position: fixed;
-}
-
-aside.sidebar footer button {
-  align-items: center;
-  background: rgb(18, 175, 203);
-  border: none;
-  border-radius: 1.6rem;
-  cursor: pointer;
-  display: flex;
-  height: 48px;
-  justify-content: center;
-  transition: background-color 0.2s;
-  width: 48px;
-}
-
-aside.sidebar footer button:hover {
-  background: rgb(23, 214, 235);
-}
-
-.with-sidebar {
-  padding-left: 110px;
-}
-
 main {
   flex: 1;
 }
@@ -68,8 +36,13 @@ main {
   cursor: pointer;
   height: 8.8rem;
   opacity: 0.6;
+  outline: none;
   overflow: hidden;
   transition: 0.2s;
+}
+
+.images button:focus {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .images button:hover, .images button.active {
@@ -98,33 +71,6 @@ main {
   color: rgb(92, 133, 153);
   line-height: 1.6;
   margin-top: 2.4rem;
-}
-
-.map-container {
-  background: rgb(230, 247, 251);
-  border: 1px solid rgb(179, 218, 226);
-  border-radius: 2rem;
-  margin-top: 6.4rem;
-}
-
-#mapid {
-  height: 28rem;
-  width: 100%;
-}
-
-.map-container footer {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.map-container footer a {
-  color: rgb(0, 137, 165);
-  text-decoration: none;
-}
-
-.map-container .leaflet-container {
-  border-bottom: 1px solid rgb(221, 227, 240);
-  border-radius: 2rem;
 }
 
 .orphanage-details-content hr {
@@ -168,27 +114,4 @@ main {
   background: linear-gradient(154.16deg, rgb(237, 255, 246) 7.85%, white 91.03%);
   border: 1px solid rgb(161, 233, 197);
   color: rgb(55, 199, 127);
-}
-
-.primary-button {
-  align-items: center;
-  background: rgb(60, 220, 140);
-  border: none;
-  border-radius: 2rem;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  height: 6.4rem;
-  justify-content: center;
-  margin-top: 6.4rem;
-  transition: background-color 0.2s;
-  width: 100%;
-}
-
-.primary-button:hover {
-  background: rgb(54, 207, 130);
-}
-
-.primary-button img {
-  margin-right: 1.6rem;
 }

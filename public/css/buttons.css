@@ -1,0 +1,49 @@
+.primary-button {
+  align-items: center;
+  background: rgb(60, 220, 140);
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  height: 6.4rem;
+  justify-content: center;
+  margin-top: 6.4rem;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.primary-button:hover {
+  background: rgb(54, 207, 130);
+}
+
+.primary-button img {
+  margin-right: 1.6rem;
+}
+
+.button-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button-select button {
+  background: rgb(245, 248, 250);
+  border: 1px solid rgb(211, 226, 229);
+  color: rgb(92, 133, 153);
+  cursor: pointer;
+  height: 6.4rem;
+}
+
+.button-select button.active {
+  background: rgb(237, 255, 246);
+  border: 1px solid rgb(161, 233, 197);
+  color: rgb(55, 199, 127);
+}
+
+.button-select button:first-child {
+  border-radius: 2rem 0 0 2rem;
+}
+
+.button-select button:last-child {
+  border-radius: 0 2rem 2rem 0;
+}
