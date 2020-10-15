@@ -36,8 +36,13 @@ main {
   cursor: pointer;
   height: 8.8rem;
   opacity: 0.6;
+  outline: none;
   overflow: hidden;
   transition: 0.2s;
+}
+
+.images button:focus {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .images button:hover, .images button.active {
@@ -109,27 +114,4 @@ main {
   background: linear-gradient(154.16deg, rgb(237, 255, 246) 7.85%, white 91.03%);
   border: 1px solid rgb(161, 233, 197);
   color: rgb(55, 199, 127);
-}
-
-.primary-button {
-  align-items: center;
-  background: rgb(60, 220, 140);
-  border: none;
-  border-radius: 2rem;
-  color: white;
-  cursor: pointer;
-  display: flex;
-  height: 6.4rem;
-  justify-content: center;
-  margin-top: 6.4rem;
-  transition: background-color 0.2s;
-  width: 100%;
-}
-
-.primary-button:hover {
-  background: rgb(54, 207, 130);
-}
-
-.primary-button img {
-  margin-right: 1.6rem;
 }

@@ -1,0 +1,81 @@
+form {
+  background: white;
+  border: 1px solid rgb(211, 226, 229);
+  border-radius: 2rem;
+  margin: 6.4rem auto;
+  overflow: hidden;
+  padding: 8rem;
+  width: 70rem;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset + fieldset {
+  margin-top: 8rem;
+}
+
+fieldset legend {
+  border-bottom: 1px solid rgb(211, 226, 229);
+  color: rgb(92, 133, 153);
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  padding-bottom: 2.4rem;
+  width: 100%;
+}
+
+.input-block + .input-block {
+  margin-top: 2.4rem;
+}
+
+.input-block label {
+  color: rgb(143, 167, 179);
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.input-block label span {
+  color: rgb(143, 167, 179);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-left: 2.4rem;
+}
+
+.input-block input, .input-block textarea {
+  background: rgb(245, 248, 250);
+  border: 1px solid rgb(211, 226, 229);
+  border-radius: 2rem;
+  color: rgb(92, 133, 153);
+  outline: none;
+  width: 100%;
+}
+
+.input-block input:focus, .input-block textarea:focus {
+  border-bottom: 3px solid rgb(21, 195, 214);
+}
+
+.input-block input {
+  height: 6.4rem;
+  padding: 0 1.6rem;
+}
+
+.input-block textarea {
+  height: clamp(12rem, 16rem, 2.4rem);
+  line-height: 2.8rem;
+  padding: 1.6rem;
+  resize: vertical;
+}
+
+.input-block.images button {
+  background: rgb(245, 248, 250);
+  border: 1px dashed rgb(150, 210, 240);
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 6.4rem;
+  margin-top: 2.4rem;
+  padding: 0 1.6rem;
+  width: 100%;
+}

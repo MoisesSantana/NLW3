@@ -1,37 +1,21 @@
 #page-create-orphanage {
   display: flex;
-  width: 100vh;
+  min-width: 100vh;
 }
 
 main {
   flex: 1;
 }
 
-form {
-  background: white;
-  border: 1px solid rgb(211, 226, 229);
-  border-radius: 2rem;
-  margin: 6.4rem auto;
-  overflow: hidden;
-  padding: 8rem;
-  width: 70rem;
+.map-container {
+  margin: 0 0 4rem;
 }
 
-fieldset {
-  border: none;
+.map-container .leaflet-container {
+  border-radius: 20px 20px 0 0;
 }
 
-fieldset + fieldset {
-  margin-top: 8rem;
-}
-
-fieldset legend {
-  border-bottom: 1px solid rgb(211, 226, 229);
-  color: rgb(92, 133, 153);
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 1.5;
-  margin-bottom: 4rem;
-  padding-bottom: 2.4rem;
-  width: 100%;
+.map-container footer {
+  background: rgb(245, 248, 250);
+  border-radius:  0 0 20px 20px;
 }
