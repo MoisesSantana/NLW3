@@ -16,7 +16,7 @@ obs: As páginas foram criadas pensando em dispositivos como notebooks e desktop
 
 ![Happy página inicial](./page-home.png)
 ![Happy página orfanatos](./page-orphanages.png)
-![Happy página orfanato](./page-orphanaga.png)
+![Happy página orfanato](./page-orphanage.png)
 ![Happy página criar orfanatos](./page-createOrphanage.png)
 
 ## Técnologias utilizadas:
