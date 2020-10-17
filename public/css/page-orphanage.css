@@ -91,6 +91,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
+  line-height: 1.5;
   margin-top: 2.4rem;
 }
 
@@ -107,11 +108,22 @@ main {
 .open-details .hour {
   background: linear-gradient(149.97deg, rgb(230, 247, 251) 8.13%, white 92.67%);
   border: 1px solid rgb(179, 218, 226);
+  border-radius: 20px;
   color: rgb(92, 133, 153);
 }
 
-.open-details .open-weekens {
+.open-details .open-weekends {
+  border-radius: 20px;
+}
+
+.open-on-weekends.open {
   background: linear-gradient(154.16deg, rgb(237, 255, 246) 7.85%, white 91.03%);
   border: 1px solid rgb(161, 233, 197);
   color: rgb(55, 199, 127);
+}
+
+.open-on-weekends.closed {
+  background: linear-gradient(154.16deg, rgb(252, 240, 244) 7.85%, white 91.03%);
+  border: 1px solid rgb(255, 188, 212);
+  color: rgb(255, 153, 157);
 }
