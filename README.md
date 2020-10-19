@@ -1,5 +1,5 @@
 # Next Level Week 3 (Discovery)
-A terceira edição do *next level week* ocorreu do dia 12 até o dia 18 com 5 dias de workshops onde construímos o projeto proposto pela *RockeatSeat*, foram 5 dias de muito conteúdo e mão na massa.
+A terceira edição do *next level week* ocorreu do dia 12 até o dia 18 com 5 dias de workshops onde construímos o projeto proposto pela *RocketSeat*, foram 5 dias de muito conteúdo e mão na massa.
 ## Projeto
 O projeto **Happy** foi idealizado como homenagem ao dia das crianças. É uma plataforma que permite cadastrar orfanatos com algumas informações, como:
 
