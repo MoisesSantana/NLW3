@@ -43,3 +43,4 @@ $ npm install
 $ npm start
 
 #Abra o site pela url http://localhost:5000
+#Para apagar o orfanato cadastrado como exemplo basta excluir o arquivo database.sqlite em (src/database/database.sqlite)
